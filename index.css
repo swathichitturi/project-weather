@@ -1,0 +1,79 @@
+h1{
+    display: flex;
+   justify-content:center;
+}
+
+body {
+background-color: pink;     
+}
+
+.container {
+    background-color: white;
+    border-radius: 6px;
+    max-width: 350px;
+    margin: auto;
+    /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.Bpzxhafaukys644Q6E2kawHaEK&pid=Api&P=0&h=180); */
+    font-family: sans-serif;
+}
+.container-1 {
+    margin: auto;
+    background-color: lightblue;
+    padding: 30px;
+    /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.Bpzxhafaukys644Q6E2kawHaEK&pid=Api&P=0&h=180); */
+    font-family: sans-serif;
+}
+.temp {
+    display: flex;
+    align-items: center;
+}
+.temp-container {
+    display: flex;
+    align-items: center;
+}
+.temp-container .temp-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+.temp-symbol {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+.temp-deg {
+    font-size: 16px;
+    font-weight: bold;
+}
+.feels-like p {
+    margin: 0;
+    padding: 0;
+}
+
+.temperature{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    margin: 0;
+}
+.date{
+    font-weight: bold;
+    margin: 0;
+}
+.parlty-cloudly{
+    margin:0;
+}
+.cloud{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    margin: 0;
+}
+.hypen degree p{
+    display: flex;
+    flex-direction: ;
+    padding: 4px;
+    margin:0;
+}
+
+
+
+

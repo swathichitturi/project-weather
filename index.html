@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+      <!-- <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="./images/search.png"></button>
+        </div>
+         <div class="search">
+             <input type='text' id='searchText' placeholder="enter city name" spellcheck="false" />
+             <input type='submit' value='Search'/>
+            </div>-->
+            <div class="search">
+                <input type="text" id="searchInput" onkeyup="handleEnter(event)">
+                <button id="searchButton"><img src="./images/search.png"></button>
+            </div>
+        <div class="error" id="inputError" >
+            <p> Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img id="weatherIcon" src="./images/clear.png" alt="weather-icon">
+            <h2 class="temp">22°C</h2>
+            <h4 class="city name">Hyderabad</h4>
+            <div class="details">
+               <div class="col">
+                <img src="./images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+               </div>
+               <div class="col">
+                <img src="./images/wind.png">
+                    <div>
+                        <p class="wind">15 Km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+
+</body>
+
+</html>
